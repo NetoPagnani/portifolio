@@ -1,2 +1,3 @@
 # ignore all .txt files
-*.txt
+
+*notas_de_confg.txt
