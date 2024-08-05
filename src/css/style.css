@@ -20,10 +20,10 @@ body {
 
 .titulo_h1 {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   text-align: center;
   font-family: "Signika Negative", sans-serif;
 }
@@ -132,9 +132,9 @@ p {
   margin: 0.5rem;
 }
 
-.descricao_projeto{
+.descricao_projeto {
   font-size: 1.3rem;
-padding: 1.3rem;
+  padding: 1.3rem;
 }
 
 .card_projeto {
