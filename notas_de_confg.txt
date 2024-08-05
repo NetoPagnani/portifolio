@@ -1,4 +1,10 @@
 padrão de cor:
+/* Color Theme Swatches in Hex */
+ { color: #0F5AF2; }
+ { color: #0B47BF; }
+ { color: #072B73; }
+ { color: #0798F2; }
+ { color: #0D0D0D; }
 
 
 

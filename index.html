@@ -1,25 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orlando Pagnani Neto</title>
-</head>
-<body>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+  </head>
+  <body>
     <header>
-        <h1>Orlando Antonio Pagnani Neto</h1>
-        <h2>Desenvolvedor Front-End </h2>
-        <nav>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Experiência</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <h1 class="titulo_h1">Olá seja bem vindo, eu sou</h1>
+      <h2>Orlando Pagnani Neto</h2>
+      <h2>
+        Desenvolvedor
+        <span id="funcao"></span>
+      </h2>
     </header>
     <main>
+      <figure class="logo_dev">
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="	https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+          alt=""
+        />
+        <img
+          class="logos"
+          src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+          alt=""
+        />
+      </figure>
+      <section class="sobre">
+        <h3 id="sobre">Sobre</h3>
+        <p>
+          Sou desenvolvedor Front-End (estudando para criar aplicações Mobile
+          com Flutter), codificando aplicações elegantes, funcionais. Estou
+          sempre buscando novos conhecimentos e ferramentas para melhorar minhas
+          habilidades e projetos.
+        </p>
+      </section>
+      <section class="card_projeto">
+        <h3 id="projetos">Projetos</h3>
+        <section class="cards">
+          <article class="card-first" id="card_hamburgueria">
+            <h4 class="titulo_projeto">Projeto de Site de uma hamburgueria</h4>
+            <a
+              href="https://restaurante-iota-sable.vercel.app"
+              target="_blank"
+              rel="noopener noferrer"
+              ><img
+                class="img_projeto"
+                src="src/image/site_hamburguer.png"
+                alt="imagem de site de uma hamburgueria ficticia"
+            /></a>
+            <p class="descricao_projeto">
+              Site criado como projeto do intensivão da Hashtag
+            </p>
+          </article>
+          <article class="card" id="card_podcast">
+            <h4 class="titulo_projeto">
+              Projeto do site do Podcast PipocaAgil
+            </h4>
+            <a
+              href="https://site-pipocaagil-vermelhocoral.vercel.app"
+              target="_blank"
+              rel="noopener noferrer"
+              ><img
+                class="img_projeto"
+                src="src/image/podcast_pipoca.png"
+                alt="imagem de site do podCast Pipoca Agil"
+            /></a>
+            <p class="descricao_projeto">
+              Site criado participando do projeto voluntario, mas infelizmente
+              não está finalizado
+            </p>
+          </article>
+          <article class="card" id="card_clima">
+            <h4 class="titulo_projeto">Projeto de APP de Previsão de tempo</h4>
+            <a
+              href="https://previsaotemponeto.netlify.app"
+              target="_blank"
+              rel="noopener noferrer"
+              ><img
+                class="img_projeto"
+                src="src/image/aplicativo_previsao_tempo.png"
+                alt="imagem de site de uma hamburgueria ficticia"
+            /></a>
+            <p class="descricao_projeto">
+              Projeto de um aplicativo de previsão de tempo
+            </p>
+          </article>
+          <article class="card" id="card_tocador">
+            <h4 class="titulo_projeto">Projeto de um Tocador de Audiobook</h4>
+            <a
+              href="https://tocadorlivro.netlify.app"
+              target="_blank"
+              rel="noopener noferrer"
+              ><img
+                class="img_projeto"
+                src="src/image/tocador_livro.png"
+                alt="imagem de site de uma hamburgueria ficticia"
+            /></a>
+            <p class="descricao_projeto">
+              Projeto de um tocador de audiobook intensivão da Hashtag
+            </p>
+          </article>
+        </section>
+        <article class="btn-radio">
+          <input type="radio" name="radio-btn" id="radio1" checked />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+        </article>
+      </section>
     </main>
-    
-</body>
+    <footer>
+      <section class="contato_logo">
+        <h3 id="contato">Contato</h3>
+        <figure class="logo_rodape_contato">
+          <a href="https://github.com/NetoPagnani" target="_blank" rel="noopener noferrer"
+            ><img
+              src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+              alt="logo github"
+              class="logos_rodape"
+          /></a>
+          <a href="https://www.linkedin.com/in/orlandopagnanineto/" target="_blank" rel="noopener noferrer">
+            <img
+              src="	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+              alt="logolinkedin
+            "
+              class="logos_rodape"
+            />
+          </a>
+        </figure>
+        <p><a href="mailto:netopagnani@gmail.com" class="email">netopagnani@gmail.com</a></p>
+      </section>
+    </footer>
+    <script src="src/js/index.js"></script>
+  </body>
 </html>
