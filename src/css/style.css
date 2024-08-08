@@ -10,11 +10,11 @@ body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.76) 23%,
-    rgba(7, 43, 115, 0.671) 63%,
-    rgba(15, 91, 242, 0.747) 94%
+    rgba(0, 0, 0, 0.76) 10%,
+    rgba(7, 43, 115, 0.671) 50%,
+    rgba(15, 91, 242, 0.747) 100%
   );
-  background-attachment: fixed;
+
   background-repeat: no-repeat;
 }
 
@@ -24,6 +24,11 @@ body {
 }
 h2 {
   font-size: 4.5rem;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+}
+.titulo_desenvolvedor {
+  font-size: 3.5rem;
   text-align: center;
   font-family: "Signika Negative", sans-serif;
 }
@@ -115,57 +120,60 @@ p {
   font-size: 2rem;
   margin: 0.5rem 2rem;
   text-shadow: 0.2rem 0.3rem 0.5rem #000;
+  text-align: center;
 }
 
 .titulo_projeto {
   padding: 1rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-shadow: 0.2rem 0.3rem 0.5rem #0f0f0f;
 }
 
 .img_projeto {
-  width: 500px;
-  height: 350px;
+  width: 100px;
+  height: 100px;
   border-bottom-left-radius: 1rem;
   border: 2px solid #000;
   box-shadow: 0.5rem 0.5rem 1rem #000;
   margin: 0.5rem;
 }
 
-.descricao_projeto {
-  font-size: 1.3rem;
-  padding: 1.3rem;
+.img_projeto:hover{
+transform: scale(1.5);
 }
 
-.card_projeto {
+.descricao_projeto {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3rem;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid #a8a8a8;
+  padding: 40px;
+  width: 380px;
+  height: 330px;
+  border-radius: 20px;
+  background-color: #0B47BF;
+  font-weight: 600;
+  box-shadow: 1px 1px 2px #a8a8a8;
 }
 
-.cards {
-  width: 700px;
-  height: 500px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  left: rem;
-}
-
-#card_podcast {
-  display: none;
-}
-#card_clima {
-  display: none;
-}
-#card_tocador {
-  display: none;
+.card:hover{
+  transform: scale(1.2);
 }
 
 footer {

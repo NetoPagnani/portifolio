@@ -32,6 +32,14 @@ function removeText() {
   }
 }
 
+function radio(){
+  const btradio1 = document.getElementById("radio1")
+  const btradio2 = document.getElementById("radio2")
+  const btradio3 = document.getElementById("radio3")
+  const btradio4 = document.getElementById("radio4")
 
+  
+
+}
 
 writeText();
