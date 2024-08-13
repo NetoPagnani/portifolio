@@ -7,13 +7,9 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.76) 10%,
-    rgba(7, 43, 115, 0.671) 50%,
-    rgba(15, 91, 242, 0.747) 100%
-  );
+  background: rgba(6, 136, 243, 0.521);
+  
+  
 
   background-repeat: no-repeat;
 }

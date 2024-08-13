@@ -1,5 +1,19 @@
-@media (min-width: 1500px){
-    .logo_dev{
-        left: 500px;
-    }
+@media (max-width: 600px) {
+  .logo_dev {
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+  }
+
+  footer {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width:1200px) {
+  .logo_dev {
+    display: flex;
+    left: 500px;
+  }
 }
