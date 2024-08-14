@@ -11,9 +11,9 @@
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1400px) {
   .logo_dev {
     display: flex;
-    left: 300px;
+    left: 500px;
   }
 }
